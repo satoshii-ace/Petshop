@@ -25,12 +25,12 @@ const navItems = [
   return (
     <header className={`sticky top-0 z-50 transition-all duration-300`}>
         <div className={`w-full ${isScrolled ? 'bg-gray-100/95 backdrop-blur shadow-md py-2' : 'bg-gray-100 py-4'}`}>
-        <div className='max-x-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-            <div className='flex flex-col md:flex-row items-center justify-between gap-3 md:gap-6'>
+        <div className='max-x-7xl mx-auto px-4 sm:px-6 lg:px-8 '>
+            <div className='flex flex-col  md:flex-row items-center justify-between gap-3 md:gap-6'>
                 <div className='flex justify-between items-center w-full md:w-auto'>
                     <a href="/" className='text-2xl font-bold text-green-600'>
                     PetShop</a>
-                    <button 
+                     <button 
                     className='md:hidden text-gray-600 hover:text-green-600'
                     onClick={()=> setIsMobileMenuOpen(!isMobileMenuOpen)}
                     aria-label='Toggle mobile menu'
