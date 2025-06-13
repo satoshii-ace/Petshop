@@ -54,7 +54,7 @@ const Shop = () => {
     );
 
   return (
-    <section id='Shop' className='py-12 scroll-mt-20 bg-gray-50'>
+    <section id='shop' className='py-12 scroll-mt-20 bg-gray-50'>
         <div className='container mx-auto px-4'>
             <div className='flex justify-between items-center mb-8'>
                 <h2 className='md:text-3xl text-2xl font-bold text-amber-900'>Featured Pets</h2>
