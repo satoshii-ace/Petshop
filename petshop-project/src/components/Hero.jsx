@@ -3,7 +3,7 @@ import hero from '../assets/hero.jpg'
 
 const Hero = () => {
   return (
-    <section id='home' className='bg-amber-50 scroll-mt-20-py-16'>
+    <section id='home' className='bg-amber-50 scroll-mt-20 py-16'>
         <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse lg:flex-row items-center gap-10'>
             <div className='text-center lg:text-left max-w-xl'>
                 <h1 className='text-4xl sm:text-5xl font-bold text-amber-950 leading-tight mb-4'>
