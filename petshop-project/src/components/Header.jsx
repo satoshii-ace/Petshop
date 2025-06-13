@@ -11,7 +11,7 @@ const Header = () => {
         };
         window,addEventListener('scroll', handleScroll);
         return() => window.removeEventListener('scroll', handleScroll);
-},{});
+},[]);
 
 const navItems = [
     {id:1, name: 'Home', link: '#home'},
@@ -25,8 +25,8 @@ const navItems = [
   return (
     <header className={`sticky top-0 z-50 transition-all duration-300`}>
         <div className={`w-full ${isScrolled ? 'bg-gray-100/95 backdrop-blur shadow-md py-2' : 'bg-gray-100 py-4'}`}>
-        <div className='max-x-7xl mx-auto px-4 sm:px-6 lg:px-8 '>
-            <div className='flex flex-col  md:flex-row items-center justify-between gap-3 md:gap-6'>
+        <div className='max-x-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+            <div className='flex flex-col md:flex-row items-center justify-between gap-3 md:gap-6'>
                 <div className='flex justify-between items-center w-full md:w-auto'>
                     <a href="/" className='text-2xl font-bold text-green-600'>
                     PetShop</a>
@@ -44,7 +44,7 @@ const navItems = [
                     <div className='relative w-full'>
                         <input type="text"
                         placeholder='Search...'
-                        className='w-full px-3 py-2 text-xs border border-gray-300 rounded-full focus:outline-none focus:ring-green-500'
+                        className='w-full px-3 py-2 text-xs border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-green-500'
                          />
                          <button className='absolute right-2 top-1/2 -translate-y-1/2 text-gray-500 hover:text-green-600'
                          aria-label='Search button'>
@@ -59,7 +59,7 @@ const navItems = [
                             <span className='absolute -top-1 -right-1 bg-green-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center'
                             >3</span>
                         </button>
-                        <div className='flex items-center justify-end space-x-4 w-full md:w-auto'>
+                        
                         <button className='relative p-2 text-gray-700 hover:text-green-600' aria-label='Cart'
                         >
                             <FiShoppingCart size={20}/>
@@ -104,7 +104,7 @@ const navItems = [
             </div>
         </div>
 
-        </div>
+       
 
     </header>
   );
