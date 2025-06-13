@@ -17,7 +17,7 @@ const navItems = [
     {id:1, name: 'Home', link: '#home'},
     {id:2, name: 'Shop', link: '#shop'},
     {id:3, name: 'Catergories', link: '#categories'},
-    {id:4, name: 'Offers', link: 'offers'},
+    {id:4, name: 'Offers', link: '#offers'},
     {id:5, name: 'About', link: '#about'},
     {id:6, name: 'Contact', link: '#contact'}
 ];
